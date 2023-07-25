@@ -25,8 +25,8 @@
                     colors: {
                         'text-first': '#121212',
                         'text-second': '#12121266',
-                        'gradient-start': '#FF8938',
-                        'gradient-end': '#F00',
+                        'gradient-start': '#121212',
+                        'gradient-end': '#121212',
                         'bg-color': '#F85559',
                     }
                 }
@@ -42,8 +42,8 @@
 </head>
 
 <body class="font-lato">
-    <header class="max-w-screen-xl mx-auto px-4 my-5 md:px-8 lg:px-16">
-        <nav>
+    <header>
+        <nav class="max-w-screen-xl mx-auto px-4 my-5 md:px-8 lg:px-16">
             <div class="navbar bg-bg-color rounded-full">
                 <div class="navbar-start">
                     <div class="navbar-center hidden lg:flex">
@@ -61,7 +61,7 @@
                 </div>
                 <div class="navbar-end">
                     <div class="bg-white rounded-full">
-                        <input type="text"  lg:flex class="border-white"/>
+                        <input type="text" lg:flex class="border-white" />
                         <button class="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -89,9 +89,74 @@
                 </div>
             </div>
         </nav>
+        <!-- Banner Section -->
+        <section class="max-w-screen-xl mx-auto px-4 my-5 md:px-8 lg:px-16">
+            <div class="carousel w-full h-[500px]">
+                <div id="slide1" class="carousel-item relative w-full"
+                    style="background-image: url('./asset/banner1.png');">
+                    <div class="mx-auto pt-20">
+                        <div class="text-center space-y-4">
+                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full"
+                    style="background-image: url('./asset/banner2.png');">
+                    <div class="mx-auto pt-20">
+                        <div class="text-center space-y-4">
+                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full"
+                    style="background-image: url('./asset/banner3.png');">
+                    <div class="mx-auto pt-20">
+                        <div class="text-center space-y-4">
+                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full"
+                    style="background-image: url('./asset/banner4.png');">
+                    <div class="mx-auto pt-20">
+                        <div class="text-center space-y-4">
+                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep</h1>
+                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </header>
     <main>
+        <!-- Deals Of the Day Section -->
+        <section class="max-w-screen-xl mx-auto px-4 my-5 md:px-8 lg:px-16">
+
+        </section>
 
     </main>
     <footer>
