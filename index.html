@@ -65,7 +65,7 @@
                 </div>
                 <div class="navbar-end">
                     <div class="bg-white rounded-full">
-                        <input type="text" lg:flex class="border-white" />
+                        <input type="text" placeholder="&nbsp;&nbsp;&nbsp; Search Here" class="border-white rounded-full"/>
                         <button class="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -406,28 +406,29 @@
         </section>
         <!-- Why Choose Us -->
         <section class="max-w-screen-xl mx-auto px-4 my-10 md:px-8 lg:px-16">
-            <h1>Why Choose Us</h1>
-            <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-
+            <div class="text-center mx-auto my-16">
+                <h1 class="text-3xl md:text-5xl text-first font-extrabold">Why Choose Us</h1>
+                <p class="text-second max-w-xl mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+            </div>
             <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                 <div class="space-y-5">
-                    <div class="flex justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-3">
                         <i class="fa-solid fa-people-group p-3 border-white rounded-full bg-gray-200"></i>
-                        <div>
+                        <div class="text-center md:text-left space-y-3">
                             <h1 class="text-2xl font-bold">Dedicated Team</h1>
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-3">
                         <i class="fa-solid fa-heart p-3 border-white rounded-full bg-gray-200"></i>
-                        <div>
+                        <div class="text-center md:text-left space-y-3">
                             <h1 class="text-2xl font-bold">Fresh is Best</h1>
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-3">
                         <i class="fa-solid fa-gift p-3 border-white rounded-full bg-gray-200"></i>
-                        <div>
+                        <div class="text-center md:text-left space-y-3">
                             <h1 class="text-2xl font-bold">Gift Certificates</h1>
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
@@ -437,23 +438,23 @@
                     <img src="./asset/whychoose1.png" alt="">
                 </div>
                 <div class="space-y-5">
-                    <div class="flex flex-row-reverse justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row-reverse justify-center items-center gap-3">
                         <i class="fa-solid fa-lemon p-3 border-white rounded-full bg-gray-200"></i>
-                        <div class="text-right space-y-3">
+                        <div class="text-center md:text-right space-y-3">
                             <h1 class="text-2xl font-bold">Integrated Supplier</h1>                          
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex flex-row-reverse justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row-reverse justify-center items-center gap-3">
                         <i class="fa-solid fa-ice-cream p-3 border-white rounded-full bg-gray-200"></i>
-                        <div class="text-right space-y-3">
+                        <div class="text-center md:text-right space-y-3">
                             <h1 class="text-2xl font-bold">Sustainable Practice</h1>
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
                     </div>
-                    <div class="flex flex-row-reverse justify-center items-center gap-3">
+                    <div class="flex flex-col md:flex-row-reverse justify-center items-center gap-3">
                         <i class="fa-solid fa-thumbs-up p-3 border-white rounded-full bg-gray-200"></i>
-                        <div class="text-right space-y-3">
+                        <div class="text-center md:text-right space-y-3">
                             <h1 class="text-2xl font-bold">The Benefits Only</h1>                           
                             <p class="text-second text-xs max-w-xs">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                         </div>
@@ -461,11 +462,31 @@
                 </div>
             </div>
         </section>
-
     </main>
-    <footer>
-
-    </footer>
+    <footer class="footer footer-center p-10 bg-black text-primary-content">
+        <div class="flex gap-3">
+            <img src="./asset/logo.png" alt="">
+            <h1 class="text-3xl font-bold text-white">Fruit Burst</h1>
+        </div>
+        <div class="flex justify-center items-center flex-wrap gap-6">
+            <p><a>Home</a><p>
+            <p><a>About Us</a><p>
+            <p><a>Shop</a><p>
+            <p><a>All Fruits</a><p>
+            <p><a>Support</a><p>
+            <p><a>My Account</a><p>
+        </div>
+        <div>
+          <div class="grid grid-flow-col gap-4">
+            <a href="#"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+            <a href="#"><i class="fa-brands fa-apple fa-2xl"></i></a>
+          </div>
+        </div>
+      </footer>
 
 </body>
 
