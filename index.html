@@ -75,18 +75,20 @@
                     </div>
                 </div>
                 <div class="navbar-end lg:hidden">
-                    <div class="dropdown pr-7">
+                    <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <i class="fa-solid fa-bars fa-xl" style="color: #151414;"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M3.75 6.75H20.25M3.75 12H20.25M3.75 17.25H20.25" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
                         </label>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-base-100 rounded-box">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruits <br></a></li>
+                            class="menu menu-sm dropdown-content mt-3 z-[1] shadow bg-gray-200 rounded-box text-base w-20 text-center">
+                            <li>Home</li>
+                            <li>About Us</li>
+                            <li>Shop</li>
+                            <li>All Fruits<br></li>
                             <div>
-                                <input type="text" placeholder="Search here"
+                                <input type="text" placeholder="Search"
                                     class="input rounded-full input-xs w-full max-w-xs" />
                                 <button class="btn btn-ghost btn-circle">
                                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
@@ -210,28 +212,28 @@
                     <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
-                                <span style="--value:15;"></span>
+                                <span style="--value:0;"></span>
                             </span>
                             Days
                         </div>
                         <div class="mt-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
-                                <span style="--value:10;"></span>
+                                <span style="--value:0;"></span>
                             </span>
                             Hours
                         </div>
                         <div class="mt-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
-                                <span style="--value:24;"></span>
+                                <span style="--value:0;"></span>
                             </span>
                             Minutes
                         </div>
                         <div class="mt-4"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></div>
                         <div class="flex flex-col">
                             <span class="countdown font-mono text-5xl">
-                                <span style="--value:44;"></span>
+                                <span style="--value:1;"></span>
                             </span>
                             Seconds
                         </div>
@@ -247,7 +249,7 @@
                     <div class="card-body items-center text-center space-y-5">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <p>Apples</p>
-                        <div class="rating ">
+                        <div class="rating">
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-1" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -267,7 +269,7 @@
                                             <h2 class="card-title">Apples</h2>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
-                                            <div class="rating ">
+                                            <div class="rating">
                                                 <input type="radio" name="rating-1"
                                                     class="mask mask-star-2 bg-[#F85559]" />
                                                 <input type="radio" name="rating-1"
@@ -300,7 +302,7 @@
                     <div class="card-body items-center text-center space-y-5">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <p>Orange</p>
-                        <div class="rating ">
+                        <div class="rating">
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -321,7 +323,7 @@
                                             <h2 class="card-title">Orange</h2>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
-                                            <div class="rating ">
+                                            <div class="rating">
                                                 <input type="radio" name="rating-2"
                                                     class="mask mask-star-2 bg-[#F85559]" />
                                                 <input type="radio" name="rating-2"
@@ -354,7 +356,7 @@
                     <div class="card-body items-center text-center space-y-5">
                         <h2 class="card-title">12.90$ - 18.85$</h2>
                         <p>Red Dragon</p>
-                        <div class="rating ">
+                        <div class="rating">
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" />
                             <input type="radio" name="rating-3" class="mask mask-star-2 bg-[#F85559]" checked />
@@ -375,7 +377,7 @@
                                             <h2 class="card-title">Red Dragon</h2>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
-                                            <div class="rating ">
+                                            <div class="rating">
                                                 <input type="radio" name="rating-3"
                                                     class="mask mask-star-2 bg-[#F85559]" />
                                                 <input type="radio" name="rating-3"
@@ -429,7 +431,7 @@
                                             <h2 class="card-title">Banana</h2>
                                             <p>Professional employees are there for you to pick the most amazing and
                                                 fresh fruits.</p>
-                                            <div class="rating ">
+                                            <div class="rating">
                                                 <input type="radio" name="rating-4"
                                                     class="mask mask-star-2 bg-[#F85559]" />
                                                 <input type="radio" name="rating-4"
