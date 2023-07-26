@@ -63,8 +63,8 @@
                 </div>
                 <div class="navbar-end hidden lg:grid">
                     <div class="bg-white rounded-full">
-                        <input type="text" placeholder="&nbsp;&nbsp;&nbsp; Search Here"
-                            class="border-white rounded-full" />
+                        <input type="text" placeholder="Search Here"
+                            class="border-white rounded-full py-3 pl-3 focus:outline-0" />
                         <button class="btn btn-ghost btn-circle">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
                                 stroke="currentColor">
@@ -108,14 +108,14 @@
         <!-- Banner Section -->
         <section class="max-w-screen-xl mx-auto px-4 my-5 md:px-8 lg:px-16 relative">
             <div class="carousel w-full h-[500px]">
-                <div id="slide1" class="carousel-item relative w-full"
-                    style="background-image: url('./asset/banner1.png');">
+                <div id="slide1" class="carousel-item relative w-full bg-cover bg-center"
+                style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./asset/banner1.png')">
                     <!-- <div class="carousel-overlay bg-opacity-10"></div>  -->
                     <div class="mx-auto pt-20">
                         <div class="text-center space-y-4">
-                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep
+                            <h1 class="text-white text-3xl lg:text-5xl font-semibold">Exotic tastes at your <br>doorstep
                             </h1>
-                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <p class="text-white text-lg">We supply highly quality organic products</p>
                             <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
                         </div>
                     </div>
@@ -124,13 +124,13 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full"
-                    style="background-image: url('./asset/banner2.png');">
+                <div id="slide2" class="carousel-item relative w-full bg-cover bg-center"
+                style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./asset/banner2.png')">
                     <div class="mx-auto pt-20">
                         <div class="text-center space-y-4">
-                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep
+                            <h1 class="text-white text-3xl lg:text-5xl font-semibold">Exotic tastes at your <br>doorstep
                             </h1>
-                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <p class="text-white text-lg">We supply highly quality organic products</p>
                             <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
                         </div>
                     </div>
@@ -139,13 +139,13 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full"
-                    style="background-image: url('./asset/banner3.png');">
+                <div id="slide3" class="carousel-item relative w-full bg-cover bg-center"
+                style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./asset/banner3.png')">
                     <div class="mx-auto pt-20">
                         <div class="text-center space-y-4">
-                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep
+                            <h1 class="text-white text-3xl lg:text-5xl font-semibold">Exotic tastes at your <br>doorstep
                             </h1>
-                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <p class="text-white text-lg">We supply highly quality organic products</p>
                             <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
                         </div>
                     </div>
@@ -154,13 +154,13 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-                <div id="slide4" class="carousel-item relative w-full"
-                    style="background-image: url('./asset/banner4.png');">
+                <div id="slide4" class="carousel-item relative w-full bg-cover bg-center"
+                style="background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./asset/banner4.png')">
                     <div class="mx-auto pt-20">
                         <div class="text-center space-y-4">
-                            <h1 class="text-white text-3xl lg:text-4xl font-semibold">Exotic tastes at your <br>doorstep
+                            <h1 class="text-white text-3xl lg:text-5xl font-semibold">Exotic tastes at your <br>doorstep
                             </h1>
-                            <p class="text-black text-base">We supply highly quality organic products</p>
+                            <p class="text-white text-lg">We supply highly quality organic products</p>
                             <button class="btn bg-bg-color text-white normal-case border-none">Book Now</button>
                         </div>
                     </div>
@@ -544,7 +544,7 @@
                     roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <div class="grid grid-cols-1 items-center gap-5 lg:grid-cols-3">
-                <div class="space-y-5">
+                <div class="space-y-5 order-2 lg:order-1">
                     <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
                         <i class="fa-solid fa-people-group p-3 border-white rounded-full bg-gray-200"></i>
                         <div class="text-center lg:text-left space-y-3">
@@ -573,10 +573,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="mx-auto">
+                <div class="mx-auto order-1 lg:order-2">
                     <img src="./asset/whychoose1.png" alt="">
                 </div>
-                <div class="space-y-5">
+                <div class="space-y-5 order-3 lg:order-3">
                     <div class="flex flex-col lg:flex-row-reverse justify-center items-center gap-4">
                         <i class="fa-solid fa-lemon p-3 border-white rounded-full bg-gray-200"></i>
                         <div class="text-center lg:text-right space-y-3">
